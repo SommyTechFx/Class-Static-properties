@@ -6,4 +6,8 @@ constructor() {
     this.Users = 0;
   }
 
+  static getwebsiteName() {
+    return ElearningService.websiteName; // Static method
+  }
+
 }
