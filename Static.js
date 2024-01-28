@@ -12,7 +12,7 @@ constructor() {
 
   enrollStudent() {
     this.Users += 1; // Instance method
-    return Student enrolled! Total active users: ${this.activeUsers};
+    return `Student enrolled! Total active users: ${this.activeUsers}`;
   }
 
 }
